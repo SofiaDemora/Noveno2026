@@ -1,0 +1,73 @@
+/* --- ETIQUETAS GENERALES (Afectan a todas las etiquetas de ese tipo) --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Un fondo gris por fuera de nuestra caja principal */
+    margin: 0;
+}
+
+/* --- IDs (#) (Afectan a un solo elemento único) --- */
+#contenedor-principal {
+    max-width: 900px;
+    margin: 0 auto; /* El truco mágico para centrar un div en la pantalla */
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Sombra para que parezca una hoja de papel */
+}
+
+#sobre-nosotros {
+    padding: 20px 40px;
+    border-bottom: 2px dashed #ccc; /* Una línea separadora */
+}
+
+#herramientas {
+    padding: 20px 40px;
+    background-color: #f8f9fa;
+}
+
+/* --- CLASES (.) (Afectan a todos los elementos que tengan ese "uniforme") --- */
+.encabezado-oscuro {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+.menu-navegacion {
+    background-color: #34495e;
+    list-style: none; /* Quitamos los puntos de la lista */
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-navegacion li {
+    display: inline-block; /* Ponemos los elementos uno al lado del otro */
+    margin: 0 15px;
+}
+
+.menu-navegacion a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.texto-resaltado {
+    background-color: #f1c40f; /* Fondo amarillo tipo resaltador */
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: black;
+}
+
+/* El estilo de nuestras "cajas" (divs). Al cambiar esto, cambian las tres tarjetas a la vez */
+.tarjeta-herramienta {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white;
+    border-left: 6px solid #3498db; /* Un borde lateral grueso para decorar */
+}
